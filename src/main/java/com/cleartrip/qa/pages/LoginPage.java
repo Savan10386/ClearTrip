@@ -1,5 +1,10 @@
 package com.cleartrip.qa.pages;
 
-public class LoginPage {
+import com.cleartrip.qa.base.TestBase;
+
+public class LoginPage extends TestBase {
+	
+	
+	
 
 }
