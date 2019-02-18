@@ -28,6 +28,7 @@ public class SearchFlight extends TestBase {
 	{
 		return driver.getTitle();
 		
+		
 	}
 	
 	public void clickTrip()

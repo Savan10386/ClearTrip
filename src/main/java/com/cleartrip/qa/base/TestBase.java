@@ -23,8 +23,7 @@ protected static WebDriver driver;
     		
     		prop = new Properties();
     		
-    	FileInputStream ip = new FileInputStream("C:\\Users\\savan\\eclipse-workspace\\ClearTrip\\src"
-    			+ "\\main\\java\\com\\cleartrip\\qa\\config"+ "\\config.properties");
+    	FileInputStream ip = new FileInputStream("C:/Users/Savan/git/ClearTrip/src/main/java/com/cleartrip/qa/config/config.properties");
     	
     	  prop.load(ip);
     		
@@ -39,7 +38,7 @@ protected static WebDriver driver;
     
     public static void initialization()
     {
-    	String browserName=prop.getProperty("Browser");
+    	String browserName=prop.getProperty("browser");
     	
     	   if(browserName.equalsIgnoreCase("ie"))
     	   {
@@ -60,7 +59,7 @@ protected static WebDriver driver;
   	             driver.manage().deleteAllCookies();
   	             driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT,TimeUnit.SECONDS);
   	             driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-  	             driver.get(prop.getProperty("URL"));
+  	             driver.get(prop.getProperty("url"));
     		   
     }
     
