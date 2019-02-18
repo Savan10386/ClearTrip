@@ -27,8 +27,16 @@ public class SearchFlight_RoundTrip extends TestBase
 		sf= new SearchFlight();
 	}
 	
-	
 	@Test(priority=1)
+	public void VerifyLogo() {
+		
+	Boolean logo=sf.verifyLogo();
+	
+	Assert.assertTrue(logo);
+		
+	}
+	
+	@Test(priority=2)
 	public void pageTitle()
 	{
 	String title=	sf.ValidateSearchFlightTitle();
@@ -36,10 +44,18 @@ public class SearchFlight_RoundTrip extends TestBase
 		Assert.assertEquals(title,"#1 Site for Booking Flights, Hotels, Packages, Trains & Local activities." );
 	}
 	
-	@Test(priority=2)
+	@Test(priority=3)
 	public void clickRoundTrip()
 	{
-		
+	   sf.clickRoundTrip();	
+	}
+	
+	@Test(priority=4)
+	public void verifySign()
+	{
+	 Boolean trip=  sf.clickTrip();
+	   
+	 Assert.assertTrue(trip);
 	}
 	
 	

@@ -15,9 +15,13 @@ public class SearchFlight extends TestBase {
 	
 	@FindBy(linkText="Your trips")	WebElement yourTrips;
 	
-	@FindBy(xpath="//span[@className='cleartripLogo']")	WebElement logoImage;
+	@FindBy(xpath="//span[text()='Home']")	WebElement logoImage;
 	
 	@FindBy(xpath="//input[@id='SignIn']")	WebElement SignIn;
+	
+	@FindBy(id="RoundTrip")	WebElement RoundTrip;
+	
+	
 	
 	public SearchFlight()
 	{
@@ -31,14 +35,21 @@ public class SearchFlight extends TestBase {
 		
 	}
 	
-	public void clickTrip()
+	public void clickRoundTrip()
+	{
+		RoundTrip.click();
+	}
+	
+	public boolean clickTrip()
 	{
 		yourTrips.click();
 		
+		return SignIn.isDisplayed();
 	}
 
 	public void signClick()
 	{
+		
 		SignIn.click();
 		
 	}

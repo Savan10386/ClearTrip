@@ -23,7 +23,9 @@ protected static WebDriver driver;
     		
     		prop = new Properties();
     		
-    	FileInputStream ip = new FileInputStream("C:/Users/Savan/git/ClearTrip/src/main/java/com/cleartrip/qa/config/config.properties");
+    		//home path
+    	//FileInputStream ip = new FileInputStream("C:/Users/Savan/git/ClearTrip/src/main/java/com/cleartrip/qa/config/config.properties");
+    FileInputStream ip = new FileInputStream("C:\\Users\\savan\\eclipse-workspace\\ClearTrip\\src\\main\\java\\com\\cleartrip\\qa\\config\\config.properties");
     	
     	  prop.load(ip);
     		
