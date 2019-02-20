@@ -37,7 +37,7 @@ public class LoginPage extends TestBase {
 	String parentWindow=driver.getWindowHandle();
 	
 		yourTrips.click();
-		
+					
 		SignIn.click();
 				
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
@@ -53,6 +53,8 @@ public class LoginPage extends TestBase {
 		     if(!parentWindow.equalsIgnoreCase(childWindow))
 		     {
 		    	 driver.switchTo().window(childWindow);
+		    	 
+		    	 TestUtil.SwitchFrame();
 		    	 
 		    	  Username.sendKeys("Savab");
 		    	 
