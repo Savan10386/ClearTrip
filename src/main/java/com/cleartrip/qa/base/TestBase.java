@@ -13,7 +13,7 @@ import com.cleartrip.qa.util.TestUtil;
 
 public class TestBase {
 	
-	static Properties prop;
+	public static Properties prop;
 protected static WebDriver driver;
 	
     public TestBase()
@@ -24,8 +24,8 @@ protected static WebDriver driver;
     		prop = new Properties();
     		
     		//home path
-    	//FileInputStream ip = new FileInputStream("C:/Users/Savan/git/ClearTrip/src/main/java/com/cleartrip/qa/config/config.properties");
-    FileInputStream ip = new FileInputStream("C:\\Users\\savan\\eclipse-workspace\\ClearTrip\\src\\main\\java\\com\\cleartrip\\qa\\config\\config.properties");
+    	FileInputStream ip = new FileInputStream("C:/Users/Savan/git/ClearTrip/src/main/java/com/cleartrip/qa/config/config.properties");
+    //FileInputStream ip = new FileInputStream("C:\\Users\\savan\\eclipse-workspace\\ClearTrip\\src\\main\\java\\com\\cleartrip\\qa\\config\\config.properties");
     	
     	  prop.load(ip);
     		

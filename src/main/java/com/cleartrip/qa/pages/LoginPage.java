@@ -3,6 +3,7 @@ package com.cleartrip.qa.pages;
 import org.openqa.selenium.WebDriver.Window;
 
 import java.util.Iterator;
+import java.util.Properties;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -21,6 +22,10 @@ public class LoginPage extends TestBase {
 	
 	@FindBy(id="email") WebElement Username;
 	
+	@FindBy(id="password") WebElement passwrd;
+	
+	@FindBy(id="signInButton") WebElement SigButton;
+	
 	
 	
 	
@@ -31,10 +36,9 @@ public class LoginPage extends TestBase {
 		
 	}
 	
-	public void Sign()
+	public SearchFlight Sign(String username, String password)
 	{
 		
-	String parentWindow=driver.getWindowHandle();
 	
 		yourTrips.click();
 					
@@ -42,22 +46,15 @@ public class LoginPage extends TestBase {
 				
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
-	   Set<String> AllWindows=	driver.getWindowHandles();
-	   
-	   Iterator<String> i1= AllWindows.iterator();
-	   
-	   while (i1.hasNext()) {
-		   
-		String childWindow =  i1.next();
+		  driver.switchTo().frame("modal_window");
+					
+		Username.sendKeys(username);
 		
-		     if(!parentWindow.equalsIgnoreCase(childWindow))
-		     {
-		    	 driver.switchTo().window(childWindow);
-		    	 
-		    	  Username.sendKeys("Savab");
-		    	 
-		     }
+		passwrd.sendKeys(password);
 		
+		SigButton.click();
+	 
+		return new SearchFlight();
 	}
 	   
 	   
@@ -67,4 +64,4 @@ public class LoginPage extends TestBase {
 	
 
 
-}
+

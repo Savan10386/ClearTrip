@@ -6,11 +6,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.cleartrip.qa.base.TestBase;
+import com.cleartrip.qa.pages.LoginPage;
 import com.cleartrip.qa.pages.SearchFlight;
 
 public class SearchFlight_RoundTrip extends TestBase
 {
 	SearchFlight sf;
+	LoginPage lp;
 	public SearchFlight_RoundTrip()
 	{
 		
@@ -24,11 +26,16 @@ public class SearchFlight_RoundTrip extends TestBase
 	{
 		initialization();
 		
-		sf= new SearchFlight();
+		lp=new LoginPage();
+		
+		
 	}
 	
 	@Test(priority=1)
 	public void VerifyLogo() {
+		
+	        
+		sf=lp.Sign(prop.getProperty("username"),prop.getProperty("password"));
 		
 	Boolean logo=sf.verifyLogo();
 	
