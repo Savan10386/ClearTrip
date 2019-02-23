@@ -35,9 +35,7 @@ public class LoginPage extends TestBase {
 	{
 		
 	String parentWindow=driver.getWindowHandle();
-	
-		yourTrips.click();
-		
+			
 		SignIn.click();
 				
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);

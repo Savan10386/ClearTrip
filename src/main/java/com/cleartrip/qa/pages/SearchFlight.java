@@ -40,11 +40,11 @@ public class SearchFlight extends TestBase {
 		RoundTrip.click();
 	}
 	
-	public boolean clickTrip()
+	public LoginPage clickTrip()
 	{
 		yourTrips.click();
 		
-		return SignIn.isDisplayed();
+		return new LoginPage();
 	}
 
 	public void signClick()

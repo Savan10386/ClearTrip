@@ -39,7 +39,7 @@ public class SearchFlight_RoundTrip extends TestBase
 	@Test(priority=2)
 	public void pageTitle()
 	{
-	String title=	sf.ValidateSearchFlightTitle();
+	   String title=sf.ValidateSearchFlightTitle();
 		
 		Assert.assertEquals(title,"#1 Site for Booking Flights, Hotels, Packages, Trains & Local activities." );
 	}
@@ -53,9 +53,9 @@ public class SearchFlight_RoundTrip extends TestBase
 	@Test(priority=4)
 	public void verifySign()
 	{
-	 Boolean trip=  sf.clickTrip();
+	  sf.clickTrip();
 	   
-	 Assert.assertTrue(trip);
+
 	}
 	
 	
