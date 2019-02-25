@@ -1,10 +1,13 @@
 package com.cleartrip.qa.pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.cleartrip.qa.base.TestBase;
+import com.cleartrip.qa.util.TestUtil;
 
 public class SearchFlight extends TestBase {
 	
@@ -38,14 +41,11 @@ public class SearchFlight extends TestBase {
 	public void clickRoundTrip()
 	{
 		RoundTrip.click();
+		
+		 driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 	}
 	
-	public LoginPage clickTrip()
-	{
-		yourTrips.click();
-		
-		return new LoginPage();
-	}
+	
 
 	public void signClick()
 	{

@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.cleartrip.qa.testcases.SearchFlight_RoundTrip"/>
       <class name="com.cleartrip.qa.testcases.LoginTest"/>
-    </classes>
+      <class name="com.cleartrip.qa.testcases.SearchFlight_RoundTrip"/>
+         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -10,10 +10,6 @@ public class TestUtil extends TestBase {
 	public static long IMPLICIT_WAIT=10;
 	
 	
-	public static void  SwitchFrame()
-	{
-		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
-		driver.switchTo().frame("modal_window");
-	}
+	
 
 }

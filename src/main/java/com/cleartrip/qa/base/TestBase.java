@@ -14,7 +14,7 @@ import com.cleartrip.qa.util.TestUtil;
 public class TestBase {
 	
 	public static Properties prop;
-protected static WebDriver driver;
+public static WebDriver driver;
 	
     public TestBase()
 	{
@@ -38,7 +38,7 @@ protected static WebDriver driver;
     	}
 	}
     
-    public static void initialization()
+    public static  void initialization()
     {
     	String browserName=prop.getProperty("browser");
     	

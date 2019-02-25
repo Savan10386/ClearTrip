@@ -1,5 +1,8 @@
 package com.cleartrip.qa.testcases;
 
+import static org.testng.Assert.assertTrue;
+
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -27,15 +30,12 @@ public class SearchFlight_RoundTrip extends TestBase
 		initialization();
 		
 		lp=new LoginPage();
-		
+		sf=lp.Sign(prop.getProperty("username"),prop.getProperty("password"));
 		
 	}
 	
 	@Test(priority=1)
 	public void VerifyLogo() {
-		
-	        
-		sf=lp.Sign(prop.getProperty("username"),prop.getProperty("password"));
 		
 	Boolean logo=sf.verifyLogo();
 	
@@ -55,15 +55,11 @@ public class SearchFlight_RoundTrip extends TestBase
 	public void clickRoundTrip()
 	{
 	   sf.clickRoundTrip();	
+	   
+	   assertTrue(driver.findElement(By.id("RoundTrip")).isSelected());
 	}
 	
-	@Test(priority=4)
-	public void verifySign()
-	{
-	  sf.clickTrip();
-	   
-
-	}
+	
 	
 	
 	@AfterMethod

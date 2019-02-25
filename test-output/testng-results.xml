@@ -1,179 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="84866" started-at="2019-02-23T16:37:54Z" finished-at="2019-02-23T16:39:19Z">
+  <suite name="Suite" duration-ms="86619" started-at="2019-02-23T18:09:24Z" finished-at="2019-02-23T18:10:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="84866" started-at="2019-02-23T16:37:54Z" finished-at="2019-02-23T16:39:19Z">
+    <test name="Test" duration-ms="86619" started-at="2019-02-23T18:09:24Z" finished-at="2019-02-23T18:10:51Z">
       <class name="com.cleartrip.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.LoginTest@3bfdc050]" name="setUp" is-config="true" duration-ms="13882" started-at="2019-02-23T16:37:54Z" finished-at="2019-02-23T16:38:08Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.LoginTest@77caeb3e]" name="setUp" is-config="true" duration-ms="7245" started-at="2019-02-23T18:09:24Z" finished-at="2019-02-23T18:09:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Login()[pri:1, instance:com.cleartrip.qa.testcases.LoginTest@3bfdc050]" name="Login" duration-ms="14540" started-at="2019-02-23T16:38:08Z" finished-at="2019-02-23T16:38:22Z">
+        <test-method status="PASS" signature="Login()[pri:1, instance:com.cleartrip.qa.testcases.LoginTest@77caeb3e]" name="Login" duration-ms="16719" started-at="2019-02-23T18:09:31Z" finished-at="2019-02-23T18:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.LoginTest@3bfdc050]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-23T16:38:22Z" finished-at="2019-02-23T16:38:22Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.LoginTest@77caeb3e]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-23T18:09:48Z" finished-at="2019-02-23T18:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.cleartrip.qa.testcases.LoginTest -->
       <class name="com.cleartrip.qa.testcases.SearchFlight_RoundTrip">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="setUp" is-config="true" duration-ms="14736" started-at="2019-02-23T16:38:22Z" finished-at="2019-02-23T16:38:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="setUp" is-config="true" duration-ms="12393" started-at="2019-02-23T18:09:48Z" finished-at="2019-02-23T18:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="VerifyLogo()[pri:1, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="VerifyLogo" duration-ms="14643" started-at="2019-02-23T16:38:37Z" finished-at="2019-02-23T16:38:52Z">
+        <test-method status="PASS" signature="VerifyLogo()[pri:1, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="VerifyLogo" duration-ms="13983" started-at="2019-02-23T18:10:00Z" finished-at="2019-02-23T18:10:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyLogo -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="teardown" is-config="true" duration-ms="964" started-at="2019-02-23T16:38:52Z" finished-at="2019-02-23T16:38:53Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="teardown" is-config="true" duration-ms="688" started-at="2019-02-23T18:10:14Z" finished-at="2019-02-23T18:10:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="setUp" is-config="true" duration-ms="7375" started-at="2019-02-23T16:38:53Z" finished-at="2019-02-23T16:39:00Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="setUp" is-config="true" duration-ms="11404" started-at="2019-02-23T18:10:15Z" finished-at="2019-02-23T18:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="pageTitle()[pri:2, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="pageTitle" duration-ms="8" started-at="2019-02-23T16:39:00Z" finished-at="2019-02-23T16:39:00Z">
+        <test-method status="PASS" signature="pageTitle()[pri:2, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="pageTitle" duration-ms="7" started-at="2019-02-23T18:10:26Z" finished-at="2019-02-23T18:10:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pageTitle -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="teardown" is-config="true" duration-ms="946" started-at="2019-02-23T16:39:00Z" finished-at="2019-02-23T16:39:01Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="teardown" is-config="true" duration-ms="810" started-at="2019-02-23T18:10:26Z" finished-at="2019-02-23T18:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="setUp" is-config="true" duration-ms="8452" started-at="2019-02-23T16:39:01Z" finished-at="2019-02-23T16:39:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="setUp" is-config="true" duration-ms="11304" started-at="2019-02-23T18:10:27Z" finished-at="2019-02-23T18:10:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="clickRoundTrip()[pri:3, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="clickRoundTrip" duration-ms="17" started-at="2019-02-23T16:39:09Z" finished-at="2019-02-23T16:39:09Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WINDOWS-PEBUS7V', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WINDOWS-PEBUS7V', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.cleartrip.qa.pages.SearchFlight.clickRoundTrip(SearchFlight.java:40)
-at com.cleartrip.qa.testcases.SearchFlight_RoundTrip.clickRoundTrip(SearchFlight_RoundTrip.java:57)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+        <test-method status="PASS" signature="clickRoundTrip()[pri:3, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="clickRoundTrip" duration-ms="11339" started-at="2019-02-23T18:10:39Z" finished-at="2019-02-23T18:10:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickRoundTrip -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="teardown" is-config="true" duration-ms="693" started-at="2019-02-23T16:39:09Z" finished-at="2019-02-23T16:39:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="setUp" is-config="true" duration-ms="7928" started-at="2019-02-23T16:39:10Z" finished-at="2019-02-23T16:39:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifySign()[pri:4, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="verifySign" duration-ms="1" started-at="2019-02-23T16:39:18Z" finished-at="2019-02-23T16:39:18Z">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WINDOWS-PEBUS7V', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'WINDOWS-PEBUS7V', ip: '10.0.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
-Driver info: driver.version: RemoteWebDriver
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
-at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.cleartrip.qa.pages.SearchFlight.clickTrip(SearchFlight.java:45)
-at com.cleartrip.qa.testcases.SearchFlight_RoundTrip.verifySign(SearchFlight_RoundTrip.java:63)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySign -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1bce4f0a]" name="teardown" is-config="true" duration-ms="627" started-at="2019-02-23T16:39:18Z" finished-at="2019-02-23T16:39:19Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.cleartrip.qa.testcases.SearchFlight_RoundTrip@1e88b3c]" name="teardown" is-config="true" duration-ms="682" started-at="2019-02-23T18:10:50Z" finished-at="2019-02-23T18:10:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.cleartrip.qa.testcases.SearchFlight_RoundTrip -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
